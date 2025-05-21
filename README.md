@@ -1,6 +1,6 @@
 # Tutor Identity Classification Challenge
 
-A comprehensive solution for BEA 2025, tracks 4 & 5
+Team Phaedrus - A comprehensive solution for BEA 2025, tracks 4 & 5
 
 ## 🏆 Competition Results
 
