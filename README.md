@@ -1,6 +1,6 @@
 # Tutor Identity Classification Challenge
 
-A comprehensive solution for automated tutor identity classification using ensemble transformer models and meta-learning techniques.
+A comprehensive solution for BEA 2025, tracks 4 & 5
 
 ## 🏆 Competition Results
 
