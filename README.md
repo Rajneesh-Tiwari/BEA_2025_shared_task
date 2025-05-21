@@ -66,34 +66,6 @@ Our solution employs a two-stage ensemble approach:
 | DeBERTa-v3-large | 0.6360 | 0.7112 | 0.6392 | 0.7145 |
 | **Final Ensemble** | **0.6551** | **0.7350** | **0.6906** | **0.7482** |
 
-### Feature Importance Analysis
-
-Top features in our Track 5 meta-model:
-1. `Phi3_deberta_large` (18,796)
-2. `Llama31405B_deberta_large` (17,536) 
-3. `Expert_deberta_large` (14,705)
-4. `GPT4_zephyr` (14,491)
-5. `Phi3_longformer_large` (12,805)
-
-The analysis reveals that different transformer architectures have specialized strengths in detecting specific tutor identities.
-
-## 🔍 Key Insights
-
-1. **Model Specialization**: Different transformer architectures excel at detecting specific tutor types
-2. **Meta-Learning Effectiveness**: LightGBM meta-model significantly improves upon simple averaging
-3. **Pseudolabeling Impact**: High-confidence pseudolabeling provides substantial performance gains
-4. **Cross-Architecture Ensemble**: Combining diverse architectures is crucial for robust performance
-
-## 📈 Ablation Studies
-
-| Component | Track 5 Macro F1 | Improvement |
-|-----------|------------------|-------------|
-| DeBERTa-large only | 0.8995 | baseline |
-| + Other base models | 0.9156 | +0.0161 |
-| + Meta-learning | 0.9226 | +0.0070 |
-| + Pseudolabeling | 0.9585 | +0.0359 |
-| + Final ensemble | 0.9596 | +0.0011 |
-
 ## 🚀 Future Work
 
 - Explore prompt engineering for LLM-based features
