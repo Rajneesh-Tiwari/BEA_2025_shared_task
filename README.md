@@ -6,8 +6,8 @@ A comprehensive solution for automated tutor identity classification using ensem
 
 | Track | Final Macro F1 | Final Accuracy | Leaderboard Rank |
 |-------|---------------|----------------|------------------|
-| Track 4 | 0.6906 | 0.7482 | - |
-| Track 5 | 0.9698 | 0.9662 | - |
+| Track 4 | 0.6906 | 0.7482 | 6 |
+| Track 5 | 0.9698 | 0.9662 | 1 |
 
 ## 📋 Overview
 
