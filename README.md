@@ -76,7 +76,7 @@ Top features in our Track 5 meta-model:
 5. `Phi3_longformer_large` (12,805)
 
 The analysis reveals that different transformer architectures have specialized strengths in detecting specific tutor identities.
-```
+
 ## 🔍 Key Insights
 
 1. **Model Specialization**: Different transformer architectures excel at detecting specific tutor types
